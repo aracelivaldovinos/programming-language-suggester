@@ -5,7 +5,6 @@
 .container{
   background-color: bisque;
   border-radius: 1%;
-  
 }
 .jumbotron{
   background-image: url("https://devbizops.files.wordpress.com/2020/04/135-choice-of-programming-language.jpg?w=1332&h=666&crop=1");
@@ -14,7 +13,6 @@
 
 .logos, #sentence{
   background-color: white;
-
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;

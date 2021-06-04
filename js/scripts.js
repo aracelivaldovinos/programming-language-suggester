@@ -46,6 +46,4 @@ $("document").ready(function(){
     $(".logo3").hide();
     $(".logo4").hide();
   });
-
-
 });
