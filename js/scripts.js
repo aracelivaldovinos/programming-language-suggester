@@ -6,6 +6,13 @@ $("document").ready(function(){
     const team = $("select#team").val();
     const size = $("select#size").val();
     const reason = $("select#reason").val();
+    $(".logo1").hide();
+    $(".logo2").hide();
+    $(".logo3").hide();
+    $(".logo4").hide();
+    
+    
+    
     let language = ""
 
     if (experience !== '3' && projects !== '4' && size ==='1'){
@@ -23,9 +30,11 @@ $("document").ready(function(){
     
     }
     else {
-      language ="JAVA"
+      language ="Java"
+      $(".logo4").show();
     }
-    $("#language").text(language)
+    $("#language").text(language) 
+    
 
   });
 
