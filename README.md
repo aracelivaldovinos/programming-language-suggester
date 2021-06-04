@@ -28,7 +28,7 @@ _This browser application suggest a programming language that is best suited to 
 
 ## Known Bugs\Goals
 
-* 
+* Form two will show even if user did not input name. I will add an error message box using the alert function or use branching to hide form two when user submits a blank.
 
 
 ## License

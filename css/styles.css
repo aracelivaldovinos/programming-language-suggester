@@ -2,11 +2,11 @@
 	display: none;
   padding-top: 5%;
 }
-#formOne{
+#formTwo{
   display: none;
 }
 .container{
-  background-color: bisque;
+  background-color: rgb(144, 156, 172);
   border-radius: 1%;
 }
 .jumbotron{
@@ -31,6 +31,12 @@
   background-color: brown;
   margin-bottom: 2%;
 }
+
+.nbtn{
+  background-color: rgb(233, 170, 76);
+  margin-bottom: 2%;
+}
+
 
 #sentence{
   display: none;

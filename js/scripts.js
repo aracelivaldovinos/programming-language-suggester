@@ -1,13 +1,14 @@
 $("document").ready(function(){
-  $("form#formZero").submit(function(event){
+  $("form#formOne").submit(function(event){
     event.preventDefault();
     $(".nbtn").click(function() {
-      $("#formOne").show();
+      $("#formTwo").show();
+      $("#formOne").hide();
     });
   });
 
 
-  $("form#formOne").submit(function(event){
+  $("form#formTwo").submit(function(event){
     event.preventDefault();
     const person = $("input#person").val();
     const experience = $("select#experience").val();
@@ -55,5 +56,7 @@ $("document").ready(function(){
     $(".logo2").hide();
     $(".logo3").hide();
     $(".logo4").hide();
+    $("#formTwo").hide();
+    $("#formOne").show();
   });
 });
