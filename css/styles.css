@@ -1,3 +1,11 @@
 .logo1,.logo2,.logo3,.logo4{
 	display: none;
 }
+.container{
+  background-color: bisque;
+  border-radius: 5%;
+}
+.jumbotron{
+  background-image: url("https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg");
+  border-radius: 45%;
+}

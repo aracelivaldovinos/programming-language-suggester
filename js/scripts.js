@@ -10,9 +10,6 @@ $("document").ready(function(){
     $(".logo2").hide();
     $(".logo3").hide();
     $(".logo4").hide();
-    
-    
-    
     let language = ""
 
     if (experience !== '3' && projects !== '4' && size ==='1'){
