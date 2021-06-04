@@ -16,6 +16,7 @@ $("document").ready(function(){
       language = "Python"
       $(".logo1").show();
       $("#sentence").show();
+      
     }
     else if(experience !== '3' && projects !== '4' && size ==='2'){
       language = "JavaScript";
@@ -34,9 +35,12 @@ $("document").ready(function(){
       $(".logo4").show();
       $("#sentence").show();
     }
+
     $("#language").text(language) 
     
 
   });
+  
+
 
 });
