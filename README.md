@@ -1,22 +1,23 @@
-# _Portfolio Landing Page_
+# _Programming Language Suggester_
 
-#### _Programming Language Suggester using HTML, CSS, and Bootsrap to create._
+#### _A JavaScript application to match programming languages with users_
 
 #### By _Araceli Valdovinos_
 
 ## Technologies Used
 
 * HTML
+* JavaScript
+* jQuery
 * CSS
 * Bootstrap
-* jQuery
-* JavaScript
 
 
 
 ## Description
 
-_This programming language suggester application is created using HTML and JavaScript to gather user information and match with and custom styled with CSS and Bootstrap. jQuer to add and style information of the user, images, and link GitHub pages._
+_This browser application suggest a programming language that is best suited to the user based on their answers. The user simply selects an answer to several questions, submits, then the application matches the user with a language._
+ 
 
 ## Setup/Installation Requirements
 
@@ -27,7 +28,7 @@ _This programming language suggester application is created using HTML and JavaS
 
 ## Known Bugs\Goals
 
-* Images are outside of the column. Planning on either resizing images or use a div class="column" instead of bootstrap grid.
+* 
 
 
 ## License
