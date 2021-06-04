@@ -1,11 +1,44 @@
 .logo1,.logo2,.logo3,.logo4{
 	display: none;
+  padding-top: 5%;
 }
 .container{
   background-color: bisque;
-  border-radius: 5%;
+  border-radius: 1%;
+  
 }
 .jumbotron{
-  background-image: url("https://www.mycplus.com/mycplus/wp-content/uploads/2009/02/programming-languages.jpg");
-  border-radius: 45%;
+  background-image: url("https://devbizops.files.wordpress.com/2020/04/135-choice-of-programming-language.jpg?w=1332&h=666&crop=1");
+
+  
+}
+
+.logos, #sentence{
+  background-color: white;
+
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.btn{
+  background-color: teal;
+  margin-bottom: 2%;
+}
+
+#sentence{
+  display: none;
+}
+
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#language{
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+h1{
+  boder
 }
