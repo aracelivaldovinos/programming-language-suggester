@@ -1,6 +1,7 @@
 $("document").ready(function(){
   $("form#formOne").submit(function(event){
     event.preventDefault();
+    const person = $("input#person").val();
     const experience = $("select#experience").val();
     const projects = $("select#projects").val();
     const team = $("select#team").val();
@@ -37,6 +38,7 @@ $("document").ready(function(){
     }
 
     $("#language").text(language) 
+    $("#name").text(person)
 
   });
   $(".btn").click(function() {
