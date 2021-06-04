@@ -1,6 +1,6 @@
 # _Programming Language Suggester_
 
-#### _A JavaScript application to match programming languages with users_
+#### _A JavaScript application to match programming language to user_
 
 #### By _Araceli Valdovinos_
 
