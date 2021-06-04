@@ -39,7 +39,7 @@ $("document").ready(function(){
     $("#language").text(language) 
 
   });
-  $(".form-control").click(function() {
+  $(".btn").click(function() {
     $("#sentence").hide();
     $(".logo1").hide();
     $(".logo2").hide();
