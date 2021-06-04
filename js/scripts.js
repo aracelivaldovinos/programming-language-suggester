@@ -9,17 +9,18 @@ $("document").ready(function(){
     let language = ""
 
     if (experience !== '3' && projects !== '4' && size ==='1'){
-      language = "Python";
-      $(".image1").show();
+      language = "Python"
+      $(".logo1").show();
     }
     else if(experience !== '3' && projects !== '4' && size ==='2'){
       language = "JavaScript";
-      $(".image2").show();
+      $(".logo2").show();
     }
     
     else if(experience !== '1' && projects !== '3' && size !=='1'){
       language = "C#";
-      $(".image3").show();
+      $(".logo3").show();
+    
     }
     else {
       language ="JAVA"
