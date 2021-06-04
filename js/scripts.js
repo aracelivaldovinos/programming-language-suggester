@@ -17,6 +17,10 @@ $("document").ready(function(){
     else if(experience === '3'||'4' && projects === '2'||'4' && team==='3'||'4' && size ==='3' && reason==='3'||'4'){
       language = "C#"
     }
+    else {
+      language ="learn something else"
+    }
+    $("#language").text(language)
 
   });
 
