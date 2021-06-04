@@ -24,6 +24,8 @@ _This browser application suggest a programming language that is best suited to 
 * _Clone the repository to desktop_
 * _Navigate inside the folder_
 * _open index.html_
+* https://aracelivaldovinos.github.io/programming-language-suggester/
+
 
 
 ## Known Bugs\Goals
