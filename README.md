@@ -1,6 +1,6 @@
 # _Programming Language Suggester_
 
-#### _A JavaScript application to match programming language to user_
+#### _A JavaScript application to match user to programming language_
 
 #### By _Araceli Valdovinos_
 
@@ -31,6 +31,8 @@ _This browser application suggest a programming language that is best suited to 
 ## Known Bugs\Goals
 
 * Form two will show even if user did not input name. I will add an error message box using the alert function or use branching to hide form two when user submits a blank.
+* Name is not cleared out when clicking reset button. 
+
 
 
 ## License
