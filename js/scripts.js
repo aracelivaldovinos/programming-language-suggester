@@ -2,7 +2,7 @@ $("document").ready(function(){
   $("form#formOne").submit(function(event){
     event.preventDefault();
     $(".nbtn").click(function() {
-      $("#formTwo").show();
+      $("#formTwo").fadeIn();
       $("#formOne").hide();
     });
   });
@@ -24,26 +24,26 @@ $("document").ready(function(){
 
     if (experience !== '3' && projects !== '4' && size ==='1'){
       language = "Python"
-      $(".logo1").show();
-      $("#sentence").show();
+      $(".logo1").slideDown();
+      $("#sentence").slideDown();
       
     }
     else if(experience !== '3' && projects !== '4' && size ==='2'){
       language = "JavaScript";
-      $(".logo2").show();
-      $("#sentence").show();
+      $(".logo2").slideDown();
+      $("#sentence").slideDown();
     }
     
     else if(experience !== '1' && projects !== '3' && size !=='1'){
       language = "C#";
-      $(".logo3").show();
-      $("#sentence").show();
+      $(".logo3").slideDown();
+      $("#sentence").slideDown();
     
     }
     else {
       language ="Java"
-      $(".logo4").show();
-      $("#sentence").show();
+      $(".logo4").slideDown();
+      $("#sentence").slideDown();
     }
 
     $("#language").text(language) 
@@ -57,6 +57,6 @@ $("document").ready(function(){
     $(".logo3").hide();
     $(".logo4").hide();
     $("#formTwo").hide();
-    $("#formOne").show();
+    $("#formOne").fadeIn();
   });
 });
