@@ -1,4 +1,12 @@
 $("document").ready(function(){
+  $("form#formZero").submit(function(event){
+    event.preventDefault();
+    $(".nbtn").click(function() {
+      $("#formOne").show();
+    });
+  });
+
+
   $("form#formOne").submit(function(event){
     event.preventDefault();
     const person = $("input#person").val();
@@ -41,7 +49,7 @@ $("document").ready(function(){
     $("#name").text(person)
 
   });
-  $(".btn").click(function() {
+  $(".rbtn").click(function() {
     $("#sentence").hide();
     $(".logo1").hide();
     $(".logo2").hide();

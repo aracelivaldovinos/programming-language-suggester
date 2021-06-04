@@ -2,6 +2,9 @@
 	display: none;
   padding-top: 5%;
 }
+#formOne{
+  display: none;
+}
 .container{
   background-color: bisque;
   border-radius: 1%;
@@ -18,8 +21,14 @@
   margin-right: 10%;
 }
 
-.btn{
+.sbtn{
   background-color: teal;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.rbtn{
+  background-color: brown;
   margin-bottom: 2%;
 }
 
