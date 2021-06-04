@@ -9,8 +9,7 @@
 }
 .jumbotron{
   background-image: url("https://devbizops.files.wordpress.com/2020/04/135-choice-of-programming-language.jpg?w=1332&h=666&crop=1");
-
-  
+  margin-top: 2%;
 }
 
 .logos, #sentence{

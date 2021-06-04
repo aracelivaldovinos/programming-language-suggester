@@ -37,10 +37,15 @@ $("document").ready(function(){
     }
 
     $("#language").text(language) 
-    
 
   });
-  
+  $(".form-control").click(function() {
+    $("#sentence").hide();
+    $(".logo1").hide();
+    $(".logo2").hide();
+    $(".logo3").hide();
+    $(".logo4").hide();
+  });
 
 
 });
